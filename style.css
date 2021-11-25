@@ -41,5 +41,53 @@ nav .nav-links ul li img {
 section {
     height: 100vh;
     overflow: hidden;
-    
+}
+
+.bg img {
+    width: 110vw;
+    height: 110vh;
+    filter: brightness(0.6);
+}
+
+.rock1 {
+    position: absolute !important;
+    left: 10vw !important;
+    top: 20vh !important;
+}
+
+.rock1 img {
+    width: 40%;
+    filter: brightness(0.5);
+}
+
+.text h1 {
+    font-family: "AlphaCentauri" !important;
+    font-size: 5vw;
+    color: #fff;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 35vh;
+    left: 34vw;
+}
+
+.earth img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 25vh;
+    left: 34vw;
+    z-index: 1;
+    filter: brightness(0.7);
+}
+
+.mid {
+    left: -150px !important;
+    bottom: -100px !important;
+    top: unset !important;
+}
+
+.mid img {
+    width: 100%;
+    z-index: 2;
+    left: -20px;
 }
