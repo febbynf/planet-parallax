@@ -90,4 +90,21 @@ section {
     width: 100%;
     z-index: 2;
     left: -20px;
+    top: 20vh !important;
+    filter: brightness(0.8);
+    /* position: absolute; */
+}
+
+.fore{
+    right: -50px !important;
+    bottom: -200px !important;
+    top: 0px !important;
+    left: unset !important;
+}
+
+.fore img {
+    width: 400px;
+    height: 110vh;
+    z-index: 3;
+    filter: brightness(0.5);
 }
